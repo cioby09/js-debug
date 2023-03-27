@@ -11,19 +11,20 @@
 
 
 // ESERCIZIO 1
-for (let i = 0; i < 5; i++) { // Dato che i parte da 0, la condizione i > 5 non si avvera perciò sostituisco con la condizione i < 5
-    console.log(i);
-}
+// for (let i = 0; i < 5; i++) { // Dato che i parte da 0, la condizione i > 5 non si avvera perciò sostituisco con la condizione i < 5
+//     console.log(i);
+// }
 
 
 // ESERCIZIO 2
-// function addIfEven(num) {
-//     if (num % 2 = 0) {
-//         return num + 5;
-//     }
-//     return num;
-// }
-
+function addIfEven(num) {
+    if (num % 2 === 0) { //Affinchè mi ritorni un valore numerico metto tre uguali
+        return num + 5;
+    }
+    return num;
+}
+// Stampo su console per avere un output
+console.log(addIfEven(6));
 
 // ESERCIZIO 3
 // function loopToFive() {
