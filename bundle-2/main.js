@@ -17,21 +17,23 @@
 
 
 // ESERCIZIO 2
-function addIfEven(num) {
-    if (num % 2 === 0) { //Affinchè mi ritorni un valore numerico metto tre uguali
-        return num + 5;
-    }
-    return num;
-}
-// Stampo su console per avere un output
-console.log(addIfEven(6));
+// function addIfEven(num) {
+//     if (num % 2 === 0) { //Affinchè mi ritorni un valore numerico metto tre uguali
+//         return num + 5;
+//     }
+//     return num;
+// }
+// // Stampo su console per avere un output
+// console.log(addIfEven(6));
 
 // ESERCIZIO 3
-// function loopToFive() {
-//     for (let i = 0, i < 5, i++) {
-//         console.log(i);
-//     }
-// }
+function loopToFive() {
+    for (let i = 0; i < 5; i++) { //Vado a correggere le virgole con i punti e virgola
+        console.log(i);
+    }
+}
+// Invoco la funzione
+loopToFive();
 
 
 // ESERCIZIO 4 (suggerimento: ci sono 8 errori)
