@@ -40,34 +40,34 @@
 
 
 // ESERCIZIO 3
-function addNumbers() {
-    const userNumber = parseInt(prompt('Inserisci un numero'));
-    // Aggiungo parseint per convertire le stringhe in numeri interi
-    const total = userNumber + 1;
-    console.log(`Il risultato finale è ${total}`);
-}
-addNumbers();
+// function addNumbers() {
+//     const userNumber = parseInt(prompt('Inserisci un numero'));
+//     // Aggiungo parseint per convertire le stringhe in numeri interi
+//     const total = userNumber + 1;
+//     console.log(`Il risultato finale è ${total}`);
+// }
+// addNumbers();
 
 
 // ESERCIZIO 4
-// function checkAccess() {
-//     const addresses = [
-//         'mymail@mail.com',
-//         'yourmail@mail.com',
-//         'hermail@mail.com',
-//         'hismail@mail.com',
-//     ];
-//     const userEmail = prompt('Inserisci il tuo indirizzo email');
+function checkAccess() {
+    const addresses = [
+        'mymail@mail.com',
+        'yourmail@mail.com',
+        'hermail@mail.com',
+        'hismail@mail.com',
+    ];
+    const userEmail = prompt('Inserisci il tuo indirizzo email');
 
-//     let grantAccess = 'false';
+    let grantAccess = 'false';
 
-//     if (addresses.includes(userEmail)) {
-//         grantAccess = 'true';
-//     }
-//     if (grantAccess === true) {
-//         console.log('Accesso consentito!');
-//     } else {
-//         console.log('Accesso negato!');
-//     }
-// }
-// checkAccess();
+    if (addresses.includes(userEmail)) {
+        grantAccess = 'true';
+    }
+    if (grantAccess === 'true') { //Aggiungo gli apici a "true"
+        console.log('Accesso consentito!');
+    } else {
+        console.log('Accesso negato!');
+    }
+}
+checkAccess();
